@@ -1,0 +1,6 @@
+const m = require('./test1.js')
+//console.log(module)
+console.log(m)
+const r1 = m.sum(1, 2)
+const r2 = m.subtract(1, 2)
+console.log(r1, r2)
